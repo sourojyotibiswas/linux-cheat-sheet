@@ -30,7 +30,7 @@
 
 ---
 
-## File and Directory Management 🗂️
+## File and Directory Management
 
 - `cd`: Change the current directory.
 - `cd ..`: Move up one directory level.
@@ -52,7 +52,7 @@
 
 ---
 
-## 🛡️ **Permissions and Ownership**
+## Permissions and Ownership
 
 - `chmod <permissions> <file/dir>`: Change file permissions.
   > 📝 4 = read, 2 = write, 1 = execute (applied as owner-group-others).
@@ -61,7 +61,7 @@
 
 ---
 
-## 📄 **Viewing and Manipulating File Content**
+## Viewing and Manipulating File Content
 
 - `cat <file>`: Display file contents.
 - `less <file>`: Scrollable view of file content (use `q` to quit).
@@ -77,7 +77,7 @@
 
 ---
 
-## 🔍 **System Information and Monitoring**
+## System Information and Monitoring
 
 - `whoami`: Display current username.
 - `id`: Show UID, GID, and groups of the current user.
@@ -94,7 +94,7 @@
 
 ---
 
-## 🧠 **Process Management**
+## Process Management
 
 - `ps`: Display active processes.
   > Use `ps aux` for detailed info.
@@ -105,14 +105,14 @@
 
 ---
 
-## 🔐 **User Management**
+## User Management
 
 - `sudo useradd -m <user>`: Create a new user with home directory.
 - `cat /etc/passwd`: View all system users and details.
 
 ---
 
-## 🌐 **Networking**
+## Networking
 
 - `ping <host>`: Check network connectivity.
 - `traceroute <host>`: Show route to host.
@@ -127,7 +127,7 @@
 
 ---
 
-## 🧰 **System Utilities**
+## System Utilities
 
 - `man <command>`: View the manual for a command.
 - `clear`: Clear the terminal screen.
@@ -143,7 +143,7 @@
 
 ---
 
-## 📦 **File Archiving and Compression**
+## File Archiving and Compression
 
 - `tar -cvf <archive.tar> <files>`: Create tar archive.
   > Use `tar -xvf <archive.tar>` to extract.
@@ -156,7 +156,7 @@
 
 ---
 
-## 📁 **Special File System Paths**
+## Special File System Paths
 
 - `/`: Root directory.
 - `.`: Current directory.
@@ -165,7 +165,7 @@
 
 ---
 
-## 🗃️ **Key Directories in the Linux File System**
+## Key Directories in the Linux File System
 
 ### **1. `/bin` – Essential User Binaries**
 
@@ -197,7 +197,7 @@
 
 ---
 
-## 🔧 **Advanced File Operations**
+## Advanced File Operations
 
 - `stat <file>`: Detailed file info (inode, access/change time, etc.)
 - `file <file>`: Identify file type (text, binary, image, etc.)
@@ -207,7 +207,7 @@
 
 ---
 
-## 🖥️ **Terminal Navigation Shortcuts**
+## Terminal Navigation Shortcuts
 
 | Shortcut     | Description                                       |
 | ------------ | ------------------------------------------------- |
@@ -221,7 +221,7 @@
 
 ---
 
-## 🧹 **Cleanup Commands**
+## Cleanup Commands
 
 - `rm -rf <dir>`: Force delete directory and contents (**use with caution**)
 - `truncate -s 0 <file>`: Empty file without deleting
@@ -229,7 +229,7 @@
 
 ---
 
-## 🧾 **Logs and System Info**
+## Logs and System Info
 
 - `dmesg`: Show kernel ring buffer messages (hardware events)
 - `journalctl`: Show logs from `systemd` (e.g. `journalctl -xe`)
@@ -239,7 +239,7 @@
 
 ---
 
-## 📊 **Disk Usage Utilities**
+## Disk Usage Utilities
 
 - `ncdu`: Interactive disk usage viewer (install separately)
 - `lsblk`: Show block device info (disks, partitions)
@@ -249,7 +249,7 @@
 
 ---
 
-## 🕵️ **Security & Permissions Checks**
+## Security & Permissions Checks
 
 - `umask`: Show or set default permissions for new files
 - `lsattr`: Show extended file attributes
@@ -259,7 +259,7 @@
 
 ---
 
-## 🌐 **Package Management (Debian-based)**
+## Package Management (Debian-based)
 
 - `apt update`: Refresh package lists
 - `apt upgrade`: Upgrade all installed packages
@@ -270,7 +270,7 @@
 
 ---
 
-## 🧪 **Scripting Essentials (Bash)**
+## Scripting Essentials (Bash)
 
 - `#!/bin/bash`: Shebang to specify interpreter
 - `$(command)` or `` `command` ``: Command substitution
@@ -280,7 +280,7 @@
 
 ---
 
-## 🧱 **Filesystem and Partition Tools**
+## Filesystem and Partition Tools
 
 - `fdisk -l`: List disks and partitions
 - `mkfs.ext4 /dev/sdX`: Format a partition as ext4
@@ -289,7 +289,7 @@
 
 ---
 
-## ⚡ **Startup & Services (Systemd)**
+## Startup & Services (Systemd)
 
 - `systemctl status <service>`: Show service status
 - `systemctl start|stop|restart <service>`
@@ -299,7 +299,7 @@
 
 ---
 
-## 🧾 **Package Log & System Log Monitoring**
+## Package Log & System Log Monitoring
 
 - `cat /var/log/dpkg.log | tail -n 10`  
   ➤ Show the last 10 package operations (installs, removals, upgrades)
@@ -327,7 +327,7 @@
 
 ---
 
-## ⚠️ **May Require Extra Installation (on Some Distros)**
+## May Require Extra Installation (on Some Distros)
 
 | Command      | Notes                                                                |
 | ------------ | -------------------------------------------------------------------- |
