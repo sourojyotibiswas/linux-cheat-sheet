@@ -2,7 +2,7 @@
 
 ## 📚 **Table of Contents**
 
-- [🗂️ File and Directory Management](#️file-and-directory-management)
+* [File and Directory Management](#️file-and-directory-management)
 - [🛡️ Permissions and Ownership](#️permissions-and-ownership)
 - [📄 Viewing and Manipulating File Content](#viewing-and-manipulating-file-content)
 - [🔍 System Information and Monitoring](#system-information-and-monitoring)
