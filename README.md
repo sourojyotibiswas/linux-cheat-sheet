@@ -30,7 +30,7 @@
 
 ---
 
-## File and Directory Management
+## File and Directory Management 🗂️
 
 - `cd`: Change the current directory.
 - `cd ..`: Move up one directory level.
