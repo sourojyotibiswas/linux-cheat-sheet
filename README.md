@@ -2,8 +2,8 @@
 
 ## 📚 **Table of Contents**
 
-- [🗂️ File and Directory Management](#️file-and-directory-management)
-- [🛡️ Permissions and Ownership](#️permissions-and-ownership)
+- [🗂️ File and Directory Management](#file-and-directory-management)
+- [🛡️ Permissions and Ownership](#permissions-and-ownership)
 - [📄 Viewing and Manipulating File Content](#viewing-and-manipulating-file-content)
 - [🔍 System Information and Monitoring](#system-information-and-monitoring)
 - [🧠 Process Management](#process-management)
@@ -24,7 +24,7 @@
 - [🧱 Filesystem and Partition Tools](#filesystem-and-partition-tools)
 - [⚡ Startup & Services (Systemd)](#startup--services-systemd)
 - [🧾 Package Log & System Log Monitoring](#package-log--system-log-monitoring)
-- [⚠️ May Require Extra Installation](#️may-require-extra-installation-on-some-distros)
+- [⚠️ May Require Extra Installation](#may-require-extra-installation-on-some-distros)
 
 > _Note_: ✅ All Commands will work perfectly fine on Debian-Based Specific (Ubuntu, Kali, Debian) Systems some of the later commands may not work on Non-Debian-Based Systems.
 
