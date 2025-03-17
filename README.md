@@ -25,6 +25,7 @@
 - [⚡ Startup & Services (Systemd)](#startup--services-systemd)
 - [🧾 Package Log & System Log Monitoring](#package-log--system-log-monitoring)
 - [⚠️ May Require Extra Installation](#may-require-extra-installation-on-some-distros)
+- [How To Contribute](#how-to-contribute)
 
 > _Note_: ✅ All Commands will work perfectly fine on Debian-Based Specific (Ubuntu, Kali, Debian) Systems some of the later commands may not work on Non-Debian-Based Systems.
 
@@ -336,3 +337,7 @@
 | `traceroute` | May need to be installed (`sudo apt install traceroute`)             |
 
 ---
+
+## How To Contribute
+
+We welcome contributions to improve this cheat sheet! Please check out our [Contributing Guidelines](CONTRIBUTING.md) for details on how to contribute.
